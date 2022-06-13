@@ -4,7 +4,7 @@ tel.: +7(903)232-05-12\
 e-mail: sergmochalin@gmail.com
 <!-- Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое) -->
 ## Description
-Looking for junior backend developer. I have finished Yandex.Practicum courses with Java Developer specialization and I'm continuing learn for frontend also. 
+Looking for junior backend developer position. I have finished Yandex.Practicum courses in Java Developer specialization and I'm learning frontend. 
 <!-- Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете) -->
 ## Tools and technologies
 **Backend:**
