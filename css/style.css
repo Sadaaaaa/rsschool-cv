@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header, .footer {
+    background-color: #4fb6f2;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: black;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: #ffe;
+    /* Цвет текста активного пункта */
+    background-color: #6ab14b;
+    /* Цвет фона активного пункта */
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+
+.section-title {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #2b759f;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #2b759f;
+    border-radius: 50%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 50px 30px 35px;
+    border-bottom: 15px solid #d7d1c9;
+}
+
+.section-profile-logo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section {
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgb(106, 46, 46);
+}
+
+.footer-title {
+    color: black;
+}
+
+.specialization {
+    padding-left: 30px;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+.title-skills {
+    font-weight: 700;
+}
+
+a {
+    color: #2b759f;
+    transition: .3s;
+}
+
+div {
+    color: black;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(https://cv-hints.netlify.app/assets/svg/rss.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
