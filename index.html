@@ -1,13 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/img/icon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <span>New CV in progress</span>
-    <p>CSS style in progress</p>
+    <header class="header">
+        <div class="header-container"></div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#summary" class="nav-link">Summary</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#code" class="nav-link">Code</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#courses" class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#languages" class="nav-link">Languages</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/avatar.jpeg" alt="avatar" class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Sergey Mochalin</h1>
+                    <h3 class="section-subtitle">Junior Full-Stack Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Moscow, Russia</li>
+                    <li class="section-item contacts-item">Email:
+                        <a href="mailto:sadopwnz@yandex.ru" title="email">sadopwnz@yandex.ru</a>
+                    </li>
+                    <li class="section-item contacts-item">GitHub:
+                        <a href="https://github.com/Sadaaaaa" title="github">Sadaaaaa</a>
+                    </li>
+                    <li class="section-item contacts-item">Telegram:
+                        <a href="https://t.me/sadopwnz" title="telegram">@sadopwnz</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>Looking for junior backend developer position. I have finished Yandex.Practicum courses in Java
+                    Developer specialization and I'm learning frontend.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <span class="title-skills">Backend</span>
+                    <ul class="section-list">
+                        <li class="section-item contacts-item">Java, Spring Framework</li>
+                        <li class="section-item contacts-item">PostgreSQL</li>
+                        <li class="section-item contacts-item">JUnit, Maven, Git</li>
+                    </ul>
+
+                    <span class="title-skills">Frontend</span>
+                    <ul class="section-list">
+                        <li class="section-item contacts-item">HTML, CSS, JavaScript</li>
+                        <li class="section-item contacts-item">React</li>
+                        <li class="section-item contacts-item">Preprocessors CSS, BEM</li>
+                    </ul>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+    <code>public class Multiply {
+        public static Double multiply(Double a, Double b) {
+            return a * b;
+        }
+    }</code></pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Yandex.Practicum - Java Developer</li>
+                    <li class="section-item contacts-item">Innopolis University - Frontend Developer</li>
+                    <li class="section-item contacts-item">The Rolling Scopes School - JavaScript/Frontend</li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">
+                        <a href="https://github.com/Sadaaaaa/java-sprint2-hw">Task manager</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        <a href="https://github.com/Sadaaaaa/java-filmorate">Film's advice app</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Moscow State Regional Pedagogical Insitute
+                        (Orekhovo-Zuevo)</li>
+                    <p class="specialization">Specialization: Teacher of Physics and Mathematics</p>
+                    <li class="section-item contacts-item">Plekhanov Russian University of Economics (Moscow)</li>
+                    <p class="specialization">Specialization: Economist</p>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <p>English - B1</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-title">GitHub:<a href="https://github.com/Sadaaaaa" class="github nav-link">Sadaaaaa</a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
