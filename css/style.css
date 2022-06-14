@@ -139,3 +139,23 @@ a {
     color: #2b759f;
     transition: .3s;
 }
+
+div {
+    color: black;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(https://cv-hints.netlify.app/assets/svg/rss.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
